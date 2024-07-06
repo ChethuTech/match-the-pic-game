@@ -1,0 +1,30 @@
+.tabs-list-container {
+  list-style: none;
+  margin: 10px;
+}
+
+.tabItem {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-right: 20px;
+  border: none;
+  background: none;
+  padding: 10px;
+  margin: 10px 25px;
+  cursor: pointer;
+}
+
+.active {
+  color: #fec653;
+  border-bottom: solid 4px #fec653;
+}
+
+@media screen and (max-width: 768px) {
+  .tabItem {
+    font-size: 18px;
+    padding: 2% 4%;
+    margin: 1% 2%;
+  }
+}

@@ -1,0 +1,15 @@
+.tabs-container-list {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnails-list {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
